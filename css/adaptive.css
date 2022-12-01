@@ -1,0 +1,36 @@
+@media all and (max-width:600px) {
+   .nav__list {
+    width: 70%;
+   }
+   .wrapper__name {
+    width: 30%;
+   } 
+   .header__inner_right {
+       width: 33%;
+   }
+}
+@media all and (max-width:500px) {
+    .header__inner {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .header__inner_right {
+        width: 70%;
+    }
+    .resume__inner {
+        flex-direction: column;
+    }
+    .resume__inner_left {
+        width: 90%;
+    }
+    .resume__inner_right {
+        width: 90%;
+    }
+    .resume__list {
+        margin-bottom: 30px;
+    }
+    .content__inner {
+        flex-direction: column;
+    }
+}
